@@ -1,3 +1,5 @@
+# Keep it as the 2nd line of this file
+my_secret_key = 'nf922*1)4z4=k4rt!n9smgj6116@a(e3yjjm6d(5jc7b-1&_q4'
 """
 Django settings for mysite project.
 
@@ -20,7 +22,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'nf922*1)4z4=k4rt!n9smgj6116@a(e3yjjm6d(5jc7b-1&_q4'
+SECRET_KEY = my_secret_key
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
