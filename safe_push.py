@@ -19,7 +19,7 @@ os.system("git commit -m \"%s\"" % commit_message)
 os.system("git push origin master")
 
 
-with open("mysite/settings.py", "r") as f:
+with open("mysite/settings.py", "r+") as f:
 	data = f.readlines()
 	data[1] = "my_secret_key = %s\n" % my_secret_key
 	f.writelines(data)
