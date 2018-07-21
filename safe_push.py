@@ -1,9 +1,10 @@
-#!/usr/bin python3
+#!/usr/bin/env python3
 import os
 
 with open("mysite/settings.py", "r") as f:
 	data = f.readlines()
 my_secret_key = data[1][data[1].index("=")+2:]
+print("The key is:\n", my_secret_key[1:-1])
 data[1] = "my_secret_key = 'no key'\n"
 
 with open("mysite/settings.py", "w") as f:
