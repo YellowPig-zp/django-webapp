@@ -2,6 +2,7 @@
 my_secret_key = 'no key'
 
 
+
 """
 Django settings for mysite project.
 
