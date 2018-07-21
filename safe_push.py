@@ -4,7 +4,7 @@ import os
 with open("mysite/settings.py", "r") as f:
 	data = f.readlines()
 my_secret_key = data[1][data[1].index("=")+2:-1]
-print("********************\nThe key is:\n"+my_secret_key[1:-1]+"********************")
+print("********************\nThe key is:\n"+my_secret_key[1:-1]+"\n********************")
 data[1] = "my_secret_key = 'no key'\n"
 
 with open("mysite/settings.py", "w") as f:
