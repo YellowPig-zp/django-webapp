@@ -1,5 +1,5 @@
 # Keep it as the 2nd line of this file
-my_secret_key = '8(1m4qgfqw#sd9l@m9xs&&)a^u+&!k-8qu-d1=xn(_0cwz7-t1'
+my_secret_key = 'no key'
 """
 Django settings for mysite project.
 
